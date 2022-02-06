@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  min-width: 20%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #3c415c;
+}
+
+header {
+  background-color: #301b3f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: auto;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  filter: drop-shadow(0px 5px 3px black);
+}
+
+.title-text {
+  color: aliceblue;
+  font-size: 5vmax;
+  font-weight: 600;
+  margin: 2rem;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat-text {
+  color: aliceblue;
+  font-size: 1.5vmax;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.invite-btn {
+  border-radius: 1rem;
+  background: #b4a5a5;
+  margin-top: 3rem;
+  filter: drop-shadow(0px 5px 3px black);
+  justify-content: center;
+  align-items: center;
+}
+
+.invite-link {
+  color: black;
+  text-decoration: none;
+  font-size: 4vw;
+  margin: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+}
+
+.video-player {
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.player {
+  align-self: center;
+  justify-self: center;
+  padding: 1rem;
+  filter: drop-shadow(0px 5px 3px black);
+}
